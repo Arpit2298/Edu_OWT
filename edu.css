@@ -236,9 +236,9 @@ nav ul li {
 }
 
 .sub_right_container {
-    width: 35%;
+    width: 33%;
     height: 600px;
-    float: left;
+    float: right;
     /* background-color: tomato; */
     position: sticky;
     top: 20px;
