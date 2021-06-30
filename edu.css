@@ -181,7 +181,7 @@ body {
 
 .Parent_container {
     width: 90%;
-    height: 500vh;
+    /* height: 500vh; */
     background-color: white;
     margin: auto;
     border-radius: 60px;
@@ -472,6 +472,9 @@ nav ul li {
 
 /* .....................................Responsive............................................. */
 
+
+/* ...............................edu.html page............................................ */
+
 @media only screen and (max-width:1030px) {
     .col1 {
         width: 32%;
@@ -509,5 +512,76 @@ nav ul li {
     .row1 {
         width: 90%;
         flex-direction: column;
+    }
+}
+
+
+/* ...............................Cource_details.html page............................................ */
+
+@media only screen and (max-width:1030px) {
+    .Parent_container {
+        width: 98%;
+    }
+    .parent2 {
+        height: 600vh;
+    }
+    .head_txt h3 {
+        font-size: 36px;
+    }
+    .feedback {
+        padding: 40px 0;
+    }
+    .progress {
+        width: 60%;
+    }
+    .sub_right_container .row1 .col1 {
+        margin: 0;
+    }
+    .sub_right_container {
+        top: 8px;
+    }
+    .sub_right_container .lesson {
+        margin: 13px auto;
+    }
+    .sub_right_container .txt {
+        padding: 2px 15px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .card_container {
+        display: none;
+    }
+    .sub_left_container {
+        width: 90%;
+        margin: auto;
+    }
+    nav ul {
+        margin: 10px 30px;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .parent2 {
+        padding: 50px 10px;
+        margin: auto;
+        height: 650vh;
+    }
+    .sub_left_container {
+        width: 100%;
+        margin: auto;
+    }
+    .head_txt h3 {
+        font-size: 27px;
+    }
+    .feedback {
+        padding: 40px 0;
+    }
+    .progress {
+        width: 80%;
+    }
+    nav ul {
+        margin: 0;
+        text-align: center;
     }
 }
